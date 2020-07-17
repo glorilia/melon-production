@@ -34,15 +34,6 @@ class Melon(object):
 # FIXME: Add Squash class definition here.
 class Squash(Melon):
 
-
-    def __init__(self,melon_type):
-        """Initialize squash.
-
-        melon_type: type of squash being built.
-        """
-        super().__init__(melon_type)
-
-
     def prep(self):
         """Prepare the squash"""
         super().prep()
